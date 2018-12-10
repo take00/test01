@@ -1,0 +1,21 @@
+package jp.co.internous.action;
+
+public class Main {
+
+	public static void main(String[] args){
+		System.out.println("Hello World!");
+		System.out.println(circle(5));
+		}
+
+	public static int hikizan(int a,int b){
+		return a-b;
+
+	public static int kakezan(int a,int b){
+			return a*b;
+
+	public static int warizan(int a,int b){
+				return a/b;
+	}
+
+
+}

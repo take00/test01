@@ -1,0 +1,15 @@
+package jp.co.internous.action;
+
+public class Main {
+
+	public static void main(String[] args){
+		System.out.println("Hello World!");
+		System.out.println(gokei(5,6));
+		}
+
+	public static int gokei(int a,int b){
+		return a*b;
+	}
+
+
+}

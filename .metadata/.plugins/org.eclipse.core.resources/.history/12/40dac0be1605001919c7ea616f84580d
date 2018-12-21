@@ -1,0 +1,9 @@
+import java.sql.Connection;
+
+/**
+ * @author testuser
+ *
+ */
+public class DBConnector {
+
+}

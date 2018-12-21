@@ -1,13 +1,9 @@
-drop database if exists sampledb;
-create database sampledb;
-use sampledb;
+drop database if exists sampledb_take;
+create database sampledb_take;
+use sampledb_take;
 
 create table sample_table(
-user_id int,
-user_name varchar(50),
-user_age int,
-user_mail varchar(50)
-);
+No int,name varchar(50),age int,Mail varchar(50));
 
 insert into sample_table values(1,"Yamada",21,"xxx@yahoo.co.jp");
 insert into sample_table values(2,"Sato",39,"yyy@google.com");

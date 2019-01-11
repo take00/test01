@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://sturts.apache.org/dtds/sturts-2.3.dtd">
+
+<sturts>
+	<constant name="sturts.devMode" value="true" />
+	<package name="com.internousdev.login.action" extends="sturts-default"></package></sturts>

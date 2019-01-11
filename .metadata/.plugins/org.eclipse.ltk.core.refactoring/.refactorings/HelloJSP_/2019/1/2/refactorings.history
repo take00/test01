@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="4 個の要素を &apos;WebContent&apos; にコピー&#x0D;&#x0A;- 元のプロジェクト: &apos;HelloJSP_&apos;&#x0D;&#x0A;- 宛先要素: &apos;WebContent&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     total-error.jsp&#x0D;&#x0A;     total-out.jsp&#x0D;&#x0A;     greeting-out.jsp&#x0D;&#x0A;     index.jsp" description="ファイルをコピー" element1="WebContent/total-error.jsp" element2="WebContent/total-out.jsp" element3="WebContent/greeting-out.jsp" element4="WebContent/index.jsp" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1547203465893" target="/HelloJSP/WebContent" units="0" version="1.0"/>
+</session>

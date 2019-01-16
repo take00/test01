@@ -1,6 +1,6 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists logindb take;
+drop database if exists logindb_take;
 create database logindb_take;
 use logindb_take;
 

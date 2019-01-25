@@ -1,0 +1,38 @@
+package com.internousdev.webproj4.action;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.internousdev.webproj4.dao.LoginDAO;
+import com.internousdev.webproj4.dto.HelloStrutsDTO;
+import com.internousdev.webproj4.dto.LoginDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport{
+	private String username;
+	private String password;
+	private List<LoginDTO>LoginDTOList = new ArrayList<LoginDTO>();
+
+	public String execute(){
+		String ret=ERROR;
+		System.out.println(username);
+		System.out.println(password);
+		LoginDAO dao=new LoginDAO();
+		LoginDTOList=dao.select(username,password);
+
+		if(HelloStrutsDTOList.size() > 0){
+			ret=SUCCESS;
+		}else{
+			ret=ERROR;
+		}
+		return ret;
+	}
+
+	public List<HelloStrutsDTO> getHelloStrutsDTOList(){
+		return HelloStrutsDTOList;
+	}
+
+	public void setHelloStrutsDTOList(List<HelloStrutsDTO> helloStrutsDTOList){
+		HelloStrutsDTOList = helloStrutsDTOList;
+	}
+}

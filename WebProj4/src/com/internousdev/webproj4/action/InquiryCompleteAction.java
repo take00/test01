@@ -11,47 +11,48 @@ public class InquiryCompleteAction extends ActionSupport{
 	private String name;
 	private String qtype;
 	private String body;
-	List<InquiryDTO>inquiryDTOList = new ArrayList<inquiryDTO>();
+	List<InquiryDTO>inquiryDTOList = new ArrayList<InquiryDTO>();
 
 	public String execute(){
 		String ret=ERROR;
-		System.out.println(username);
-		System.out.println(password);
-		LoginDAO dao=new LoginDAO();
-		LoginDTOList=dao.select(username,password);
-
-		if(this.username.equals(LoginDTOList.get(0).getUsername()) && this.password.equals(LoginDTOList.get(0).getPassword())){
+		InquiryCompleteDAO dao= new InquiryCompleteDAO();
+		int count = dao.insert(name,qtype,body);
+		if(count > 0){
+			inquiryDTOList=dao.select();
 			ret=SUCCESS;
-		}else{
-			ret=ERROR;
 		}
 		return ret;
 	}
 
-	public String getUsername(){
-		return username;
+	public String getName(){
+		return name;
 	}
 
-	public void setUsername(String username){
-		this.username = username;
+	public void setName(String name){
+		this.name = name;
 	}
 
-	public String getPassword(){
-		return password;
+	public String getQtype(){
+		return qtype;
 	}
 
-	public void setPassword(String password){
-		this.password = password;
+	public void setQtype(String qtype){
+		this.qtype = qtype;
 	}
 
-	public List<LoginDTO> getLoginDTOList(){
-		return LoginDTOList;
+	public String getBody(){
+		return body;
 	}
 
-	public void setLoginDTOList(List<LoginDTO> loginDTOList){
-		LoginDTOList = loginDTOList;
+	public void setBody(String body){
+		this.body = body;
 	}
-}
-public class  {
 
+	public List<InquiryDTO> getInquiryDTOList(){
+		return inquiryDTOList;
+	}
+
+	public void setInquiryDTOList(List<InquiryDTO> inquiryDTOList){
+		this.inquiryDTOList = inquiryDTOList;
+	}
 }

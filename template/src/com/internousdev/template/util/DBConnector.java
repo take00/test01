@@ -12,7 +12,7 @@ public class DBConnector {
 	/*
 	 * データベース接続URL
 	 */
-	private static String url = "jdbc:mysql://localhost/ecsite";
+	private static String url = "jdbc:mysql://localhost/ecsite_take";
 	/*
 	 * データベース接続ユーザ名
 	 */

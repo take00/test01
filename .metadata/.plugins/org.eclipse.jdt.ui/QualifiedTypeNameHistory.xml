@@ -14,4 +14,5 @@
 <fullyQualifiedTypeName name="com.internousdev.template.dao.LoginDAO"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.internousdev.template.util.DateUtil"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.MyPageDTO"/>
 </qualifiedTypeNameHistroy>

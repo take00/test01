@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="com.internousdev.template.util.DateUtil"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dto.MyPageDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

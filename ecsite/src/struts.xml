@@ -59,10 +59,10 @@
 	<result name="error">error.jsp</result>
 	</action>
 
-	<!-- LogoutAction
+	<!-- LogoutAction-->
 	<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction" method="execute">
 	<result name="success">home.jsp</result>
-	</action>-->
+	</action>
 
 </package>
 </struts>

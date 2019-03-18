@@ -10,7 +10,7 @@
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta http-equiv="description" content=""/>
 <meta http-equiv="keywords" content=""/>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mim.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <title>buyItemConfirm画面</title>
 <style type="text/css">
 /*===========TAG LAYOUT========*/

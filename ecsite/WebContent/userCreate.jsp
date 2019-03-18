@@ -66,9 +66,8 @@
 			<p>UserCreate</p>
 		</div>
 		<div>
-			<s:if test="errorMessage != ">
+			<s:if test="errorMessage != ''">
 					<s:property value="errorMessage" escape="false"/>
-						<span>円</span>
 					</s:if>
 					<table>
 					<s:form action="UserCreateConfirmAction">

@@ -1,0 +1,4 @@
+127.0.0.1 - - [25/Mar/2019:19:38:27 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:19:38:31 +0900] "GET /ecsite/userCreateConfirm.jsp HTTP/1.1" 200 2064
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:19:38:42 +0900] "GET /ecsite/buyItemConfirm.jsp HTTP/1.1" 200 2333
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:19:38:50 +0900] "GET /ecsite/buyItem.jsp HTTP/1.1" 200 2514
